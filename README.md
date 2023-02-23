@@ -6,7 +6,7 @@ This is a Python script that uses the Selenium web driver to update your DNS rec
 
 ### Instructions
 
-1. Open the `hover_dns_updater.py` file in a text editor.
+1. Open the `Hover-DNS.py` file in a text editor.
 
 2. Replace the `USERNAME`, `PASSWORD`, and `CHROMEDRIVER_PATH` placeholders with your Hover.com username, password, and the path to your ChromeDriver executable.
 
