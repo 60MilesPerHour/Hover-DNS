@@ -14,9 +14,7 @@ This is a Python script that uses the Selenium web driver to update your DNS rec
 
 4. Replace the `YOUR_XPATHS` placeholders with the appropriate XPath values for your Hover.com account. You can find these by inspecting the elements on the Hover.com website and copying the XPath value for each element.
 
-5. Save the `hover_dns_updater.py` file and run it using the following command:
-
-`` python3 Hover-DNS.py ``
+5. Save the `hover_dns_updater.py` file and run it using the following command: `` python3 Hover-DNS.py ``
 
 6. The script will update the DNS records for your domain name on Hover.com using your public IP address. The script will print messages to the console indicating whether the login was successful and whether the DNS records were updated successfully.
 
