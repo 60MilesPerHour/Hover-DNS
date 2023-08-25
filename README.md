@@ -1,7 +1,7 @@
 ```
 # Hover.com Automated DNS Update Script
 
-This script automates the process of logging into Hover.com and updating the DNS records of specified domains with a new public IP. It uses Selenium for web automation, `requests` for fetching the public IP, Twilio to send notifications when a CAPTCHA is detected, and `twocaptcha` to help solve the CAPTCHA.
+This script (Hover-DNS.py) automates the process of logging into Hover.com and updating the DNS records of specified domains with a new public IP. It uses Selenium for web automation, `requests` for fetching the public IP, Twilio to send notifications when a CAPTCHA is detected, and `twocaptcha` to help solve the CAPTCHA.
 
 ## Prerequisites
 
@@ -39,10 +39,8 @@ Replace the placeholders (`your_hover_username`, `your_hover_password`, etc.) wi
 6. Run the script using:
 
 ```bash
-python script_name.py
+python Hover-DNS.py
 ```
-
-Replace `script_name.py` with the actual name of the script.
 
 ## Important Notes
 
